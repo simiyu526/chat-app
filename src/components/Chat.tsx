@@ -21,7 +21,7 @@ export default function Chat({ onLogout }: { onLogout: () => void }) {
     const token = getToken();
     if (!token) return;
 
-    const socket = io('http://localhost:3001', {
+    const socket = io('https://chatbackend-jtib.onrender.com', {
       auth: { token },
     });
 
