@@ -68,7 +68,7 @@ export default function Chat({ onLogout }: { onLogout: () => void }) {
       {/* Header */}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-bold flex items-center gap-2">
-          <BsFillPersonFill className="text-blue-500" /> Chat App
+          <BsFillPersonFill className="text-blue-500" /> CupidChat
         </h2>
         <div className="flex items-center gap-4">
           <button
