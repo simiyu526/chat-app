@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getToken } from './auth';
 
 const API = axios.create({
-  baseURL: 'http://localhost:10000/api',
+  baseURL: 'https://chatbackend-jtib.onrender.com/api',
 });
 
 API.interceptors.request.use((config) => {
